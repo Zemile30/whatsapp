@@ -12,7 +12,7 @@ $(document).ready(function () {
                     , newDiv = $('<div class="line"> </div>')
                     , bigDiv = $(`<div ${myclass}> </div>`)
                 $(newH3).append(vall)
-                $(newdiv).append(newH3)
+                $(newDiv).append(newH3)
                 $(bigDiv).append(newDiv)
                 return bigDiv
             }
@@ -25,6 +25,6 @@ $(document).ready(function () {
         $('#messageme').append(myel('class="end"'))
         $('#inputme').val("")
             
-    })
+    });
 
 });
