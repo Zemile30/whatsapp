@@ -6,7 +6,7 @@ $(document).ready(function () {
     $("#me").click(function (e) { 
         e.preventDefault()
         function myel(myclass = "") {
-            if(!$.trim($("#inputme").val()) == '') {
+            if (!$.trim($("#inputme").val()) == '') {
                 let vall = $("#inputme").val()
                     let newH3 = $('<h3> </h3>')
                     let newDiv = $('<div class="line"> </div>')
@@ -21,11 +21,11 @@ $(document).ready(function () {
             }
 
         }
-        $("#messageyou").append(myel())
-        $("#messageme").append(myel('class="end"'))
-        $("#inputme").val("")
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
-        document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)   
-    })
+    $("#messageyou").append(myel())
+    $("#messageme").append(myel('class="end"'))
+    $("#inputme").val("")
+    document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
+    document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)   
+})
 
 });
