@@ -33,9 +33,13 @@ a:hover {
   display: inline-block;
   border-radius: 50px;
   background-color: #7991e7;
-  margin: 10px 80px 0 10px;
+  margin: 10px 20px 0 10px;
   color: #ffffff;
   padding: 10px;
+}
+#jsdom .chat #messageme .end {
+  display: flex;
+  flex-flow: row-reverse nowrap;
 }
 #jsdom .chat #messageyou {
   width: 500px;
