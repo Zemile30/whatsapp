@@ -21,43 +21,25 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-#jsdom .chat #messageme {
+#jsdom .chat .message {
   width: 500px;
   height: 260px;
   background-color: #ffffff;
   border-radius: 20px;
   display: flex;
   flex-flow: column nowrap;
+  scrollto-height: 260px;
+  overflow: auto;
 }
-#jsdom .chat #messageme .line {
+#jsdom .chat .message .line {
   display: inline-block;
   border-radius: 50px;
   background-color: #7991e7;
-  margin: 10px 20px 0 10px;
+  margin: 5px 20px 5px 10px;
   color: #ffffff;
   padding: 10px;
 }
-#jsdom .chat #messageme .end {
-  display: flex;
-  flex-flow: row-reverse nowrap;
-}
-#jsdom .chat #messageyou {
-  width: 500px;
-  height: 260px;
-  background-color: #ffffff;
-  border-radius: 20px;
-  display: flex;
-  flex-flow: column nowrap;
-}
-#jsdom .chat #messageyou .line {
-  display: inline-block;
-  border-radius: 50px;
-  background-color: #7991e7;
-  margin: 10px 20px 0 10px;
-  color: #ffffff;
-  padding: 10px;
-}
-#jsdom .chat #messageyou .end {
+#jsdom .chat .message .end {
   display: flex;
   flex-flow: row-reverse nowrap;
 }
